@@ -13,7 +13,7 @@ public class OrderCreateService {
 	
 	@Autowired
 	OrderCreateRepository orderCreateRepository;
-	
+	//Sample comment
 	public OrderCreateResponse createOrder(CretateOrderRequest cretateOrderRequest) {
 		
 		Order order = new Order();
